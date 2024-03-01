@@ -1,0 +1,115 @@
+
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-image: url(https://watermark.lovepik.com/photo/20211121/large/lovepik-cloth-background-picture_500633737.jpg);
+  border: #230aff 2px solid;
+}
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #000000;
+  border: #6fff00 2px solid;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: url(https://t4.ftcdn.net/jpg/02/76/08/07/360_F_276080724_hltnCyDjcqAyRtLzDYo3T2jXbBtCD7fl.jpg);
+  
+}
+header h1{
+  
+  margin-top: 20px;
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family:cursive;
+  background-image: url(https://t4.ftcdn.net/jpg/02/76/08/07/360_F_276080724_hltnCyDjcqAyRtLzDYo3T2jXbBtCD7fl.jpg);
+
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  margin-right: 20px;
+  color: #f0f0f0;
+  cursor: pointer;
+  
+  
+}
+
+nav li {
+  display: flex;
+  margin-right: 20px;
+  cursor: pointer;
+  
+}
+
+main {
+  padding: 20px;
+}
+
+.item-list {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  
+}
+
+.item-card {
+  border: 2px solid #000000;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}
+.item-card:hover{
+  transform:perspective()
+}
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.counter button { 
+  background: linear-gradient(to right, #FF0000, #0000FF);
+  border:#6fff00 3px solid;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: aliceblue;
+  font-weight: bold;
+  font-family: cursive;
+  
+}
+.counter button:hover { 
+  color: #0c0606;
+  
+}
+
+.counter p {
+  padding: 3px;
+  font-size: 24px;
+  margin:  20px;
+  color: rgb(252, 255, 252);
+  background-color: black;
+  border-radius: 50%;
+}
